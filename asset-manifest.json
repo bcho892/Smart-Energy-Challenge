@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Smart-Energy-Challenge/static/css/main.67da804d.css",
+    "main.js": "/Smart-Energy-Challenge/static/js/main.a8d90dd4.js",
+    "index.html": "/Smart-Energy-Challenge/index.html",
+    "main.67da804d.css.map": "/Smart-Energy-Challenge/static/css/main.67da804d.css.map",
+    "main.a8d90dd4.js.map": "/Smart-Energy-Challenge/static/js/main.a8d90dd4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67da804d.css",
+    "static/js/main.a8d90dd4.js"
+  ]
+}
