@@ -1,0 +1,103 @@
+* {
+  font-family: 'Courier';
+}
+
+.App {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.nav {
+  background-color: var(--light-main-color);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.link-styles {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  padding: 0 .5rem;
+  height: 90px;
+  transition: all .5s;
+  border-radius: 2px;
+}
+
+.link-styles:hover {
+  background-color: white;
+  color: var(--black);
+  background-size: 1000px;
+}
+
+#ul-nav {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#ul-nav li {
+  list-style: none;
+  font-size: 20px;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.body-style {
+  display: flex;
+  flex-direction: column;
+  min-height: 600px;
+  color: white;
+  align-items: center;
+  background-color: var(--dark-main-color);
+  padding: 0 1rem;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  width: 100%;
+  text-align: left;
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+
+.selected {
+  background-color: white;
+  color: var(--black);
+  text-decoration: none;
+  position: relative;
+  padding: 0 .5rem;
+  height: 90px;
+  transition: all .5s;
+  border-radius: 2px;
+}
+
+@media only screen and (max-width: 600px){
+  #ul-nav{
+    padding: 0;
+  }
+  #ul-nav li {
+    font-size:1rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .section {
+    text-align: center;
+  }
+}

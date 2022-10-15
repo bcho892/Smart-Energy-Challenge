@@ -1,0 +1,15 @@
+.container {
+    height: 20rem;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+.container h1 {
+    color: var(--dark-main-color);
+}
+

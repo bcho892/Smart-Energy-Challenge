@@ -1,0 +1,12 @@
+.membergrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+}
+
+@media only screen and (max-width: 750px) {
+    .membergrid{
+        text-align: center;
+        grid-template-columns: 1fr;
+    }
+}

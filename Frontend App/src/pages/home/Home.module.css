@@ -1,0 +1,40 @@
+.console {
+    white-space: pre-line;
+}
+
+.graphcontainer {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 100%;
+    max-height: 20rem;
+}
+
+.graphviews {
+    display: flex;
+    gap: 1rem;
+}
+
+.graphviews li {
+    padding: 0 10px;
+    list-style: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all .5s;
+    user-select: none;
+}
+
+.graphviews li:hover {
+    background-color: white;
+    color: var(--dark-main-color);
+}
+
+.selected {
+    background-color: white;
+    color: var(--dark-main-color);
+}
+
+.out {
+    display: none;
+}
